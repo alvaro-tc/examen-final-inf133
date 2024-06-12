@@ -22,7 +22,7 @@
         },
         "responses": {
           "201": {
-            "description": "Usuario creado"
+            "description": "Usuario creado" 
           },
           "400": {
             "description": "Solicitud incorrecta"
@@ -502,7 +502,7 @@
           "phone",
           "role"
         ]
-      },
+      }, 
       "Login": {
         "type": "object",
         "properties": {

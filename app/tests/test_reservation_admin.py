@@ -3,7 +3,7 @@ from datetime import datetime
 
 def test_get_reservations(test_client, admin_auth_headers):
     response = test_client.get("/api/reservations", headers=admin_auth_headers)
-    assert response.status_code == 200
+    assert response.status_code == 200 
     assert isinstance(response.json, list)
 
 def test_create_reservation(test_client, admin_auth_headers):

@@ -64,7 +64,7 @@ def test_register_admin_user(test_client):
     }
     response = test_client.post("/api/register", json=new_admin)
     assert response.status_code == 201
-    assert response.json["message"] == "Usuario creado exitosamente"
+    assert response.json["message"] == "Usuario creado exitosamente" 
 
 
 def test_admin_login_user(test_client):
